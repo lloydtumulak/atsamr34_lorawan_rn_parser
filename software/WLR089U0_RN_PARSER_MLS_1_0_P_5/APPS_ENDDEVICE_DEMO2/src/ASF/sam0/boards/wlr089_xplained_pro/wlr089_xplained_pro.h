@@ -90,13 +90,21 @@ void system_board_init(void);
 
 /** \name SW0 definitions
  *  @{ */
-#define SW0_PIN                   PIN_PA28
-#define SW0_ACTIVE                false
-#define SW0_INACTIVE              !SW0_ACTIVE
-#define SW0_EIC_PIN               PIN_PA28
-#define SW0_EIC_MUX               MUX_PA28A_EIC_EXTINT8
-#define SW0_EIC_PINMUX            PINMUX_PA28A_EIC_EXTINT8
-#define SW0_EIC_LINE              8
+//#define SW0_PIN                   PIN_PA28
+//#define SW0_ACTIVE                false
+//#define SW0_INACTIVE              !SW0_ACTIVE
+//#define SW0_EIC_PIN               PIN_PA28
+//#define SW0_EIC_MUX               MUX_PA28A_EIC_EXTINT8
+//#define SW0_EIC_PINMUX            PINMUX_PA28A_EIC_EXTINT8
+//#define SW0_EIC_LINE              8
+
+#define SW0_PIN                     PIN_PA06
+#define SW0_ACTIVE                  false
+#define SW0_INACTIVE                !SW0_ACTIVE
+#define SW0_EIC_PIN                 PIN_PA06
+#define SW0_EIC_MUX                 MUX_PA06A_EIC_EXTINT6
+#define SW0_EIC_PINMUX              PINMUX_PA06A_EIC_EXTINT6
+#define SW0_EIC_LINE                6
 /** @} */
 
 /** \name RF SWITCH definitions
